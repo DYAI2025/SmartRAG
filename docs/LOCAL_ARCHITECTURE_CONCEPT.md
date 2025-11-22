@@ -620,7 +620,7 @@ class ConversationManager:
 
 ```python
 class OfflineModelManager:
-    """Stellt sicher dass alle Modelle offline verfügbar sind"""
+    """Stellt sicher, dass alle Modelle offline verfügbar sind"""
 
     REQUIRED_MODELS = {
         'ollama': [

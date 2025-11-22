@@ -1,5 +1,5 @@
 # SmartRAG Local Architecture Concept
-## Permanente Linux-Anwendung mit lokalem LLM-Integration
+## Permanente Linux-Anwendung mit lokaler LLM-Integration
 
 **Version:** 1.0
 **Datum:** 2025-11-22

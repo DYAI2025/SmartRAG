@@ -250,6 +250,7 @@ GET    /documents/{doc_id}/chunks   # Chunks eines Dokuments
 POST   /query                       # RAG Query (synchron)
 POST   /query/stream                # RAG Query (streaming)
 POST   /embed                       # Text embedden
+POST   /enrich                      # Text anreichern (Enrichment)
 POST   /search                      # Semantische Suche
 GET    /search/similar/{doc_id}     # Ähnliche Dokumente
 ```

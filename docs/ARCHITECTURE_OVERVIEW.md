@@ -511,7 +511,7 @@ sudo systemctl status smartrag
 ### Disk voll
 ```bash
 # Alte Backups löschen
-find /var/backups/smartrag/ -mtime +30 -delete
+find /var/backups/smartrag/ -mindepth 1 -type f -mtime +30 -delete
 
 # Logs rotieren
 sudo journalctl --vacuum-time=7d

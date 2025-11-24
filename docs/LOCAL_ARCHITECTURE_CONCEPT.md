@@ -491,7 +491,7 @@ rsync -av --link-dest=/var/backups/smartrag/latest \
 ln -snf "$BACKUP_DIR" /var/backups/smartrag/latest
 
 # Alte Backups löschen (>30 Tage)
-find /var/backups/smartrag/ -type d -mtime +30 -exec rm -rf {} +
+find /var/backups/smartrag/ -mindepth 1 -type d -mtime +30 -exec rm -rf {} +
 ```
 
 ---

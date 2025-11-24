@@ -126,7 +126,7 @@ ExecStop=/opt/smartrag/scripts/graceful-shutdown.sh
 # Restart policy
 Restart=always
 RestartSec=10
-StartLimitInterval=200
+StartLimitIntervalSec=200
 StartLimitBurst=5
 
 # Resource Limits
